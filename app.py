@@ -6,7 +6,7 @@ import os
 image = Image.open('image.png')
 st.image(image)
 
-st.title("Restaurant Finder AI assistent")
+st.title("Hungry AI")
 
 client = Together(api_key= os.environ['API_KEY'])
 
